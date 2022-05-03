@@ -6,5 +6,4 @@ function solve(input) {
 
 console.log(solve(['20', '30', '40']))
 console.log(solve(['5', '10']))
-console.log(solve(['10']))
 
