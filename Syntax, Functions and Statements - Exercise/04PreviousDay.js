@@ -1,9 +1,7 @@
 function solve(year, month, day) {
-    let date = new Date(year, month, day-1)
-    let newYear = date.getFullYear();
-    let newMonth = date.getMonth();
-    let newDate = date.getDate();
-    console.log(`${newYear}-${newMonth}-${newDate}`);
+    let date = new Date(year, month-1, day);
+    date.setDate(date.getDate() - 1);
+    console.log(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`)
 }
 
 solve(2016, 9, 30)
