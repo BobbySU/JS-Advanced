@@ -1,7 +1,7 @@
 function solve(input) {
     const objects = {}
-    for (let i = 0; i < input.length; i+=2) {
-        objects[input[i]]= Number(input[i+1])
+    for (let i = 0; i < input.length; i += 2) {
+        objects[input[i]] = Number(input[i + 1])
     }
     console.log(objects)
 }
