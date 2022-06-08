@@ -20,8 +20,7 @@ function createSortedList() {
             return sortedList[index];
         },
         size: 0
-    }
-    
+    }  
 }
 
 let list = createSortedList();
