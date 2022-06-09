@@ -7,5 +7,4 @@ function colorize() {
             row.style.background = "Teal";
         }
     }
-    console.log(rows)
 }
