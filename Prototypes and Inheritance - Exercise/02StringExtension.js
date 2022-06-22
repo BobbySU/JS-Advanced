@@ -14,7 +14,7 @@
     };
 
     String.prototype.isEmpty = function () {
-        return this.toString.isEmpty ? false : true;
+        return this.toString() === "" ? true : false;
     }
 
     String.prototype.truncate = function (n) {
